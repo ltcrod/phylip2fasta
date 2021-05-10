@@ -5,7 +5,7 @@ Can be installed adding to the profile source the following string:
 ```
 alias phylip2fasta=python /{path_to}/phylip2fasta/phylip2fasta.py
 ```
-If you can't don't worry, you can just launch it with '''python /{path_to}/phylip2fasta/phylip2fasta.py''' every time 
+If you can't don't worry, you can just launch it with ```python /{path_to}/phylip2fasta/phylip2fasta.py``` every time 
 
 
 # Usage: 
@@ -13,7 +13,8 @@ If you can't don't worry, you can just launch it with '''python /{path_to}/phyli
 phylip2fasta -i {input}.phy -o {output_name}
 ```
 -i / --input-phylip : specify the phylip (.phy) file to convert to FASTA
--o / --output-name : specify the output FASTA file name; '''.fasta''' will be automatically added
+
+-o / --output-name : specify the output FASTA file name; ```.fasta``` will be automatically added
 
 
 

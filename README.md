@@ -12,12 +12,14 @@ If you can't don't worry, you can just launch it with ```python /{path_to}/phyli
 ```
 phylip2fasta -i {input}.phy -o {output_name}
 ```
--i / --input-phylip : specify the phylip (.phy) file to convert to FASTA
+-i / --input-phylip : specify the phylip (```.phy```) file to convert to FASTA
 
--o / --output-name : specify the output FASTA file name; ```.fasta``` will be automatically added
+-o / --output-name : specify the output FASTA file name; ```.fasta``` will be automatically added at the end of the output file
 
+
+=^._.^= ∫
 
 
 A nice employment of this script is piping it to Edgardo Mortiz's [vcf2phylip](https://github.com/edgardomortiz/vcf2phylip) to rapidly convert VCF files into FASTA files.
 
-=^._.^= ∫
+

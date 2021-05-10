@@ -19,7 +19,8 @@ phylip2fasta -i {input}.phy -o {output_name}
 
 =^._.^= ∫
 
+# Tips and tricks 
 
-A nice employment of this script is piping it to Edgardo Mortiz's [vcf2phylip](https://github.com/edgardomortiz/vcf2phylip) to rapidly convert VCF files into FASTA files.
+A nice employment of this script is piping it to edgardomortiz's [vcf2phylip](https://github.com/edgardomortiz/vcf2phylip) to rapidly convert VCF files into FASTA files.
 
-
+Another nice script to directly convert VCFs into FASTAs is [fromhaplomulti-VCF2FASTA](https://github.com/raveancic/fromhaplomulti-VCF2FASTA)

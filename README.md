@@ -17,7 +17,6 @@ phylip2fasta -i {input}.phy -o {output_name}
 -o / --output-name : specify the output FASTA file name; ```.fasta``` will be automatically added at the end of the output file.
 
 
-=^._.^= ∫
 
 # Tips and tricks 
 

@@ -23,3 +23,5 @@ phylip2fasta -i {input}.phy -o {output_name}
 A nice employment of this script is piping it to edgardomortiz's [vcf2phylip](https://github.com/edgardomortiz/vcf2phylip) to rapidly convert VCF files into FASTA files.
 
 Another nice script to directly convert VCFs into FASTAs is raveancic's [fromhaplomulti-VCF2FASTA](https://github.com/raveancic/fromhaplomulti-VCF2FASTA).
+
+A script to reverse convert FASTA files to phylip files is [distributed with the latest version of RAxML](https://github.com/stamatak/standard-RAxML/tree/master/usefulScripts).
